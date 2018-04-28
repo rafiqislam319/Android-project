@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.rafiqul.androidsentenceformer.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SentenceFormer"
+        android:id="@+id/textView1"
+        android:textColor="#ff3eff0f"
+        android:paddingTop="40dp"
+        android:textSize="25dp"
+         />
+
+
+    <!--<AutoCompleteTextView-->
+        <!--android:id="@+id/actv1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:hint="auto complete"-->
+        <!--android:textColorHint="#C0C0C0"-->
+        <!--android:layout_marginTop="50dp"-->
+
+        <!--/>-->
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/mactv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="type sentence here"
+        android:textColorHint="#C0C0C0"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+</LinearLayout>
